@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Mandatory">
+ <description>A collection of mandatory sniffs.</description>
+
+ <rule ref="Generic.Classes.OpeningBraceSameLine"/>
+
+ <rule ref="Generic.Files.LineLength">
+   <properties>
+    <property name="lineLimit" value="76"/>
+   </properties>
+ </rule>
+
+</ruleset>
